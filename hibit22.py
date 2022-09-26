@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jul 28 14:02:29 2022
-
-@author: Gulben AVSAR
-
 scRNA-seq imputation for HIBIT22
 """
 import os
-os.chdir("E:\\PhD_Thesis\HIBIT22")
+os.chdir("E:\\HIBIT22")
 os.getcwd()
 
 from scripts import func_file as ff
