@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Aug  1 12:37:08 2022
-
-@author: Gulben AVSAR
 """
 import magic
 import scanpy as sc
@@ -24,9 +21,6 @@ def dset_panc():
     adata = sc.read_h5ad('./datasets/GSM2230757_human1_umifm_counts.h5ad')
     del adata.uns['log1p']
     return(adata)
-
-
-
 
 def apply_magic(data, dName):
     X = data.copy()
